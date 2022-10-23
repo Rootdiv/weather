@@ -1,5 +1,5 @@
 import { FormEvent, ChangeEvent, useState } from 'react';
-import style from './Search.module.scss';
+import style from './Search.module.sass';
 
 import { ReactComponent as SearchIcon } from './search.svg';
 import { weatherRequestAsync } from 'store/weatherAction';

@@ -1,4 +1,4 @@
-import style from './Result.module.scss';
+import style from './Result.module.sass';
 import { useAppSelector } from 'hooks';
 
 export const Result = () => {

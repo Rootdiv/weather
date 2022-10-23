@@ -1,15 +1,12 @@
-import style from './App.module.scss';
-import { Container } from './module/Container/Container';
-import { Result } from './module/Result/Result';
-import { Search } from './module/Search/Search';
+import Container from './module/Container';
+import Result from './module/Result';
+import Search from './module/Search';
 
 const App = () => (
-  <div className={style.app}>
-    <Container>
-      <Search />
-      <Result />
-    </Container>
-  </div>
+  <Container>
+    <Search />
+    <Result />
+  </Container>
 );
 
 export default App;
