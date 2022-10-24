@@ -23,6 +23,7 @@
   "resolutions": {
     "open": "7.4.2"
   },
+  "homepage": "./",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
