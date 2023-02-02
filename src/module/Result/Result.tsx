@@ -7,7 +7,7 @@ export const Result = () => {
     <div className={style.result}>
       {isLoading ? (
         <p>Загрузка...</p>
-      ) : weather.name ? (
+      ) : 'name' in weather ? (
         <>
           <p>{weather.main.temp}&#8451;</p>
           <p>{weather.name}</p>

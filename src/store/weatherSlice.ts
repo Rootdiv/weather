@@ -1,11 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { weatherRequestAsync } from './weatherAction';
-
-export interface IWeather {
-  isLoading: boolean;
-  error: string;
-  weather: any;
-}
+import { IWeather } from './weatherTypes';
 
 const initialState: IWeather = {
   isLoading: false,

@@ -13,8 +13,9 @@ export const Search = () => {
     event.preventDefault();
     dispatch(weatherRequestAsync(search));
   };
-
+  //Типизируем событие
   const handlerChange = (event: ChangeEvent<EventTarget>) => {
+    //проверяем, что событие пришло из нужного элемента
     if (event.target instanceof HTMLInputElement) {
       setSearch(event.target.value);
     }
